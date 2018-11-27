@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="sample.MainScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="235.0" layoutY="158.0" mnemonicParsing="false" text="я хочу стать бегуном" />
+      <Button layoutX="207.0" layoutY="220.0" mnemonicParsing="false" text="я хочу стать спонсором бегуна" />
+      <Button layoutX="203.0" layoutY="277.0" mnemonicParsing="false" text="я хочу узнать больше о событии" />
+      <Label fx:id="footer" layoutX="14.0" layoutY="369.0" prefHeight="43.0" prefWidth="600.0" text="Label" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label fx:id="header" layoutX="14.0" layoutY="14.0" prefHeight="143.0" prefWidth="600.0" text="Label" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
